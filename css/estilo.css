@@ -6,10 +6,15 @@
 }
 
 .imagem img {
-    max-width: 250px;
+    max-width: 260px;
     border-radius: 15px;
+    margin: 20px;
 }
 
 p {
     font-size: 18px;
+}
+
+.texto {
+    font-family: 'Outfit';
 }
