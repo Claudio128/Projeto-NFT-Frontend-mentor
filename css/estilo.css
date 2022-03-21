@@ -9,6 +9,7 @@
 /* Definição da imagem da classe Imagem: Adicionando uma imagem no background, definindo o tamanho da imagem, bordas e a margin */
 .imagem {
     background-image: url(/images/image-equilibrium.jpg);
+    background-position: center;
     background-size: cover;
     width: 280px;
     height: 280px;
