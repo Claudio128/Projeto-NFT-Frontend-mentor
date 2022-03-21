@@ -8,7 +8,7 @@
 
 /* Definição da imagem da classe Imagem: Adicionando uma imagem no background, definindo o tamanho da imagem, bordas e a margin */
 .imagem {
-    background-image: url(/images/image-equilibrium.jpg);
+    background-image: url(../images/image-equilibrium.jpg);
     background-position: center;
     background-size: cover;
     width: 280px;
@@ -98,7 +98,7 @@ h1:hover, a:hover{
 /* Definindo efeito da imagem: Centralizando uma imagem quando o mouse passar por cima */
 .imagem:hover .efeito{
     display: block;
-    background-image: url(/images/icon-view.svg);
+    background-image: url(../images/icon-view.svg);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
