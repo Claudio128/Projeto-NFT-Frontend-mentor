@@ -18,20 +18,37 @@ p {
 
 h1 {
     font-size: 20px;
-    margin: 0 0 10px 0;
+    margin: 0 0 15px 0;
 }
 
 .texto {
-    margin: 20px 20px 10px 20px;
+    margin: 10px 20px 20px 20px;
 }
 
 .info {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin: 5px 20px 10px 20px;
 }
 
 .info h2{
     font-size: 16px;
+    margin: 0px 75px 0px 7px;
+    color: cyan;
+}
+
+.info p {
+    margin: 0px 0px 0px 5px;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+}
+
+.rodape img {
+    max-width: 30px;
+    margin: 15px 10px 15px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
 }
