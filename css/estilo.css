@@ -98,7 +98,7 @@ h1:hover, a:hover{
 /* Definindo efeito da imagem: Centralizando uma imagem quando o mouse passar por cima */
 .imagem:hover .efeito{
     display: block;
-    background-image: url(../images/icon-view.svg);
+    background-image: url(/images/icon-view.svg);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
