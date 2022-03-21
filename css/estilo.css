@@ -103,3 +103,14 @@ h1:hover, a:hover{
     background-position-x: center;
     background-position-y: center;
 }
+
+.linha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    width: 280px;
+    border-color: #2f425b;
+}
