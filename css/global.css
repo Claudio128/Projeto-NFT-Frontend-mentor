@@ -1,13 +1,16 @@
+/* Tirando toda margin inicial */
 * {
     margin: 0;
 }
 
+/* Definição do body: Cor, cor da fonte e a fonte geral */
 body {
     background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit';
     color: #FFFFFF;
 }
 
+/* Definição do main: Tamanho mínimo e centralizando os itens */
 main {
     min-height: 100vh;
     display: flex;
