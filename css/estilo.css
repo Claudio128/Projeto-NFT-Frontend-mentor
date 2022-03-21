@@ -1,0 +1,105 @@
+/* Definição do cartão: Cor, tamanho e bordas */
+.cartao {
+    max-width: 320px;
+    height:  540px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+}
+
+/* Definição da imagem da classe Imagem: Adicionando uma imagem no background, definindo o tamanho da imagem, bordas e a margin */
+.imagem {
+    background-image: url(../images/image-equilibrium.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    margin: 20px 20px 5px 20px;
+}
+
+/* Definição da tag p: Tamanho da fonte e cor */
+p {
+    font-size: 16px;
+    color: hsl(215, 51%, 70%)
+}
+
+/* Definição da tag h1: Tamanho da fonte, definir o cursor e a margin */
+h1 {
+    font-size: 20px;
+    margin: 0 0 15px 0;
+    cursor: pointer;
+}
+
+/* Definição da class texto: Definir a margin */
+.texto {
+    margin: 10px 20px 20px 20px;
+}
+
+/* Definição da class info: Alinhar os itens de informação e a margin */
+.info {
+    display: flex;
+    align-items: center;
+    margin: 5px 20px 20px 20px;
+}
+
+/* Definição da tag h2 na class info: Definir o tamanho do texto, a cor e a margin */
+.info h2{
+    font-size: 16px;
+    margin: 0px 90px 0px 2px;
+    color: cyan;
+}
+
+/* Definição da imagem na class info: Definir a margin */
+.info img {
+    margin: 0px 5px 0px 0px;
+}
+
+/* Definição da class rodape: Alinhar os itens do rodape */
+.rodape {
+    display: flex;
+    align-items: center;
+}
+
+/* Definição da imagem na class rodape: tamanho máximo na imagem, a cor e o radius da borda e a margin */
+.rodape img {
+    max-width: 30px;
+    margin: 15px 15px 15px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+/* Definição da tag p na class rodape: Tamanho da fonte e a margin a direita */
+.rodape p {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+/* Adicionando um efeito na imagem: Tamanho, cor e a borda do efeito */
+.efeito {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(180, 100%, 50%, 0.5);
+    display: none;
+    border-radius: 10px;
+}
+
+/* Definição da tag a: Cor, fonte e retirar a decoração */
+a {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* Definindo efeito do H1: Quando o mouse passar por cima do H1 ele muda a cor */
+h1:hover, a:hover{
+    color:cyan
+}
+
+/* Definindo efeito da imagem: Centralizando uma imagem quando o mouse passar por cima */
+.imagem:hover .efeito{
+    display: block;
+    background-image: url(../images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
