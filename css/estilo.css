@@ -1,3 +1,4 @@
+/* Definição do cartão: Cor, tamanho e bordas */
 .cartao {
     max-width: 320px;
     height:  540px;
@@ -5,47 +6,56 @@
     border-radius: 15px;
 }
 
+/* Definição da imagem da classe Imagem: Tamanho da imagem, bordas e a margin */
 .imagem img {
     max-width: 280px;
     border-radius: 10px;
     margin: 20px 20px 5px 20px;
 }
 
+/* Definição da tag p: Tamanho da fonte e cor */
 p {
     font-size: 16px;
     color: hsl(215, 51%, 70%)
 }
 
+/* Definição da tag h1: Tamanho e a margin */
 h1 {
     font-size: 20px;
     margin: 0 0 15px 0;
 }
 
+/* Definição da class texto: Definir a margin */
 .texto {
     margin: 10px 20px 20px 20px;
 }
 
+/* Definição da class info: Alinhar os itens de informação e a margin */
 .info {
     display: flex;
     align-items: center;
     margin: 5px 20px 20px 20px;
 }
 
+/* Definição da tag h2 na class info: Definir o tamanho do texto, a cor e a margin */
 .info h2{
     font-size: 16px;
     margin: 0px 90px 0px 2px;
     color: cyan;
 }
 
+/* Definição da imagem na class info: Definir a margin */
 .info img {
     margin: 0px 5px 0px 0px;
 }
 
+/* Definição da class rodape: Alinhar os itens do rodape */
 .rodape {
     display: flex;
     align-items: center;
 }
 
+/* Definição da imagem na class rodape: tamanho máximo na imagem, a cor e o radius da borda e a margin */
 .rodape img {
     max-width: 30px;
     margin: 15px 15px 15px 20px;
@@ -53,7 +63,15 @@ h1 {
     border-radius: 20px;
 }
 
+/* Definição da tag p na class rodape: Tamanho da fonte e a margin a direita */
 .rodape p {
     font-size: 14px;
     margin-right: 5px;
+}
+
+/* Definição da tag a: Cor, fonte e retirar a decoração */
+a {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-decoration: none;
 }
