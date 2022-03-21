@@ -1,13 +1,13 @@
 .cartao {
-    max-width: 300px;
-    max-height: 500px;
+    max-width: 320px;
+    height:  535px;
     background-color: hsl(216, 50%, 16%);
     border-radius: 15px;
 }
 
 .imagem img {
-    max-width: 260px;
-    border-radius: 15px;
+    max-width: 280px;
+    border-radius: 10px;
     margin: 20px 20px 5px 20px;
 }
 
@@ -28,17 +28,17 @@ h1 {
 .info {
     display: flex;
     align-items: center;
-    margin: 5px 20px 10px 20px;
+    margin: 5px 20px 20px 20px;
 }
 
 .info h2{
     font-size: 16px;
-    margin: 0px 75px 0px 7px;
+    margin: 0px 90px 0px 2px;
     color: cyan;
 }
 
-.info p {
-    margin: 0px 0px 0px 5px;
+.info img {
+    margin: 0px 5px 0px 0px;
 }
 
 .rodape {
@@ -48,7 +48,12 @@ h1 {
 
 .rodape img {
     max-width: 30px;
-    margin: 15px 10px 15px 20px;
+    margin: 15px 15px 15px 20px;
     border: 1px solid white;
     border-radius: 20px;
+}
+
+.rodape p {
+    font-size: 14px;
+    margin-right: 5px;
 }
